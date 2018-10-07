@@ -43,10 +43,10 @@ auto max(const T &a) -> typename T::value_type {
     return largest;
 }
 //Homework 02-part03
-//this function will evaluate the results for a container y with scalar x for input
+//this function will evaluate the result for a container y with scalar x for input
 //Suppose we want to have a polynomial y=a0+a1.x^1+a2.x^2+a3.x^3+⋯
 //and store the coefficients in a container y=[a0,a1,a2,a3,…]
-// This function should return the result of y(x) based on the coefficients in the containers
+// This function should return the result of y(x) based on the coefficients in the container
 template <typename Container, typename ring>
 auto evaluate(const Container &y, const ring &x) -> ring
 {
